@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sage: #B2BCA3;
+  --color-terracotta: #C1664A;
+  --color-pastel-beige: #F5F5F0;
+}
+
+body {
+  @apply bg-pastel-beige text-[#2D2D2D] antialiased;
+}
