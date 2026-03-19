@@ -1,5 +1,7 @@
 import { Outlet, Scripts, ScrollRestoration, Meta, Links } from "react-router";
 import { Search, ShoppingBag, Heart } from "lucide-react";
+import { Navbar } from "./components/Navbar";
+
 import "./app.css";
 
 export default function App() {
@@ -13,7 +15,7 @@ export default function App() {
       </head>
       <body className="bg-pastel-beige text-stone-900 antialiased">
         {/* Глобальний Header */}
-        <header className="fixed top-0 w-full bg-white/40 backdrop-blur-xl z-50 px-8 py-6 flex justify-between items-center border-b border-stone-100">
+        {/* <header className="fixed top-0 w-full bg-white/40 backdrop-blur-xl z-50 px-8 py-6 flex justify-between items-center border-b border-stone-100">
           <div className="text-xl font-bold tracking-tight uppercase italic">
             Urban Flow
           </div>
@@ -39,7 +41,9 @@ export default function App() {
               className="cursor-pointer hover:text-terracotta"
             />
           </div>
-        </header>
+        </header> */}
+
+        <Navbar />
 
         <Outlet />
 

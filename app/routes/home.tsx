@@ -18,9 +18,9 @@ export default function Home() {
             Spring / Summer 2026
           </span>
           <h1 className="text-6xl md:text-8xl font-light leading-[0.9] tracking-tighter mb-8 text-stone-900">
-            Твій ритм.
+            Твій ритм
             <br />
-            Твій <span className="italic font-semibold italic">стиль.</span>
+            Твій <span className="italic font-semibold italic">стиль</span>
           </h1>
           <p className="text-stone-500 text-lg max-w-md mb-10 leading-relaxed">
             Urban Flow — це маніфест свободи для тих, хто відчуває пульс міста і
